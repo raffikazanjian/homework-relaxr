@@ -65,8 +65,7 @@ body {
 #container {
 	width: 100%;
 	margin: auto;
-	height: 500px;
-	border: 1px solid white;
+	/*height: 500px; */
 }
 
 #header {
@@ -107,6 +106,77 @@ body {
 	border: 1px solid #f9e42e;
 	border-radius: 5px;
 	margin: 90px auto 0px auto;
+	text-decoration: none;
+}
+
+#benefits {
+	background-color: #f0efef;
+	margin: 0px;
+	padding: 50px 0px;
+}
+
+#benefits section {
+	width: 80%;
+	margin: 40px auto 0px auto;
+}
+
+#benefits h1 {
+	color: #033048;
+	font: 600 20px/28px 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+#benefits p, #benefits li {
+	color: #606161;
+	font: 300 13px/21px 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+#benefits p {
+	width: 310px;
+}
+
+#benefits li {
+	width: 230px;
+}
+
+#testimonial {
+	width: 100%;
+	background: url(../images/testimonial_bg.jpg) no-repeat 0px 0px;	
+}
+
+#testimonial section {
+	width: 48%;
+	margin: 0px auto;
+	padding: 50px 0px;
+}
+
+#testimonial section blockquote {
+	color: #fff;
+	font: italic 300 18px/26px 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+#testimonial section blockquote strong {
+	display: block;
+	color: #fff;
+	font: normal 800 18px/26px 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+#signUp {
+	background-color: #f9e42e;
+	width: 100%;
+	padding: 20px 0px;
+}
+
+#signUp a {
+	display: block;
+	width: 250px;
+	padding: 20px 0px;
+	margin: 0px auto;
+	color: #fff;
+	background-color: #033048;
+	font: normal 800 12px/20px 'Open Sans', Arial, Helvetica, sans-serif;
+	border: 1px solid #033048;
+	border-radius: 5px;
+	text-align: center;
 	text-decoration: none;
 }
 
