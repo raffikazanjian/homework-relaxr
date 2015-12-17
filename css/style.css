@@ -58,8 +58,15 @@ body {
 /*******************************************/
 
 /* Center the container */
+<<<<<<< HEAD
 #header-container, #blog-container, #cta-container, #footer-container {
   width: 100%;
+=======
+#container {
+	width: 100%;
+	margin: auto;
+	/*height: 500px; */
+>>>>>>> parent of 2f05544... i forgot the background image in the header
 }
 
 #blog-container, #cta-container, #footer-container {
