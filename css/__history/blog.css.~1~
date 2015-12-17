@@ -1,0 +1,133 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 48px;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 35px 0;
+}
+
+header {
+  padding-top: 32px;
+  height: 700px;
+  background: url("../images/header_bg.jpg")  no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 48px;
+}
+
+header .logo {
+  margin-left: 100px;
+}
+
+header h2 {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+header a {
+  font-size: 28px;
+  background: #f9e42e;
+  width: 280px;
+  padding: 12px 0;
+  border-radius: 5px;
+  color: #121212;
+  font-weight: 700;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+section#benefits {
+  background: white;
+  color: #606161;
+  font-weight: 100;
+  font-size: 24px;
+  padding: 50px 200px;
+}
+
+section#benefits p {
+  width: 500px;
+}
+
+section#benefits ul {
+  width: 600px;
+  padding-left: 100px;
+}
+
+section#quote {
+  background: url("../images/testimonial_bg.jpg")  no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  font-weight: 200;
+  font-size: 36px;
+  padding: 50px 310px;
+  text-align: center;
+}
+
+section#quote blockquote {
+  font-style: italic;
+}
+
+section#quote blockquote span {
+  font-weight: 600;
+  font-style: normal;
+  display: block;
+}
+
+section#cta {
+  background: #f9e42e;
+}
+
+section#cta a {
+  font-size: 28px;
+  background: #033048;
+  width: 280px;
+  padding: 12px 0;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+footer {
+  background: #121212;
+  color: white;
+  font-weight: 200;
+  font-size: 28px;
+  padding: 50px 400px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 20px 20px 20px;
+}
+
+footer .logo {
+  color: yellow;
+  margin-bottom: 50px;
+}
+
+footer nav {
+  margin-bottom: 50px;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: 600;
+}
